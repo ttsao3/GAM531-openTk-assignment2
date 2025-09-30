@@ -10,10 +10,16 @@
 
 
 //rotation
+
+
 Matrix4 rotationMatrix = Matrix4.CreateRotationY(rotationAngle);
 
 //Scaling
+
+
 Matrix4 scaleMatrix = Matrix4.CreateScale(scaleFactor);
 
-//Model matrix : combine translation, rotation, scaling
+//Model 
+
+matrix : combine translation, rotation, scaling
 Matrix4 model = scaleMatrix * rotationMatrix;
