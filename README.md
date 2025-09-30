@@ -8,7 +8,7 @@
 
    applied only rotation and scaling to my rectangle
 
-   **
+
 //rotation
 Matrix4 rotationMatrix = Matrix4.CreateRotationY(rotationAngle);
 
