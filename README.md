@@ -23,3 +23,9 @@ Matrix4 scaleMatrix = Matrix4.CreateScale(scaleFactor);
 
 matrix : combine translation, rotation, scaling
 Matrix4 model = scaleMatrix * rotationMatrix;
+
+
+--
+## Screenshot
+
+![Running Program](./Screenshot%202025-10-07%20144514.png)
